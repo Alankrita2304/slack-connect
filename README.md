@@ -1,1 +1,1 @@
-# slack-connect
+We support full OAuth2 refresh token flow. When a Slack access token expires, our backend transparently fetches a new token using the refresh token and updates the DB. No user re-login required. Scheduled messages and immediate API calls always use a valid token.
